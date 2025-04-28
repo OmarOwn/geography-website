@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>استكشاف الجغرافيا</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>مرحبًا بك في صفحة استكشاف الجغرافيا</h1>
+  <p>في هذه الصفحة، يمكنك معرفة المزيد عن جغرافيا العالم، وموقع الدول، وتفاصيل الخرائط.</p>
+
+  <!-- صورة خريطة -->
+  <h2>خريطة العالم</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg" alt="خريطة العالم" width="600">
+
+  <!-- الفورم -->
+  <h2>شاركنا معلوماتك</h2>
+  <form>
+    <label for="name">الاسم:</label><br>
+    <input type="text" id="name" name="name" placeholder="اكتب اسمك"><br><br>
+
+    <label for="age">العمر:</label><br>
+    <input type="number" id="age" name="age"><br><br>
+
+    <label for="password">كلمة المرور:</label><br>
+    <input type="password" id="password" name="password"><br><br>
+
+    <label for="country">اختر بلدك:</label><br>
+    <select id="country" name="country">
+      <option value="egypt">مصر</option>
+      <option value="ksa">السعودية</option>
+      <option value="uae">الإمارات</option>
+      <option value="other">أخرى</option>
+    </select><br><br>
+
+    <input type="submit" value="إرسال">
+  </form>
+
+</body>
+</html>
